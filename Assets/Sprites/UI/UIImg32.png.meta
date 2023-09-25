@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 015dbdd7486a62942bb29f4c00a67dd6
+guid: 8853752647d3a794aa5b09764a88cf4d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,253 +136,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerHeart
+      name: UIImg32_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
-        width: 24
-        height: 24
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f348dfacde4dbb46a7f8bf9a624406f
-      internalID: -1639810880
+      spriteID: dd2313f4d731b3045bb9ba2eb122e1a9
+      internalID: -1901893828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerCoin
+      name: UIImg32_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 24
-        height: 24
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56eca484f6d69e943baccfa4ff04aa83
-      internalID: 631015806
+      spriteID: 3c4c9ebb3af5dfb47896f082a4fc96f7
+      internalID: -1971834611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerJewel
+      name: UIImg32_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 24
-        width: 24
-        height: 24
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a3c9b850f05d846b0106222c843a66
-      internalID: -2050634564
+      spriteID: e10bf5aa43460674b8cf223db6a281e7
+      internalID: -1322342600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Package
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9359f869b29418b42832571eb019ceb1
-      internalID: 2047648751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fb50b1f4f7238441ac89ff0e89620e4
-      internalID: 807888969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_5
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26da5cd8398b3c54aaa5ce47c2cd7e9e
-      internalID: 448583903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_6
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b470af345b2568d44afe770732159dfe
-      internalID: 791627837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_7
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e764c867be51c104c92039279de17dec
-      internalID: -2031537944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_8
+      name: UIImg32_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
-        width: 24
-        height: 24
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9372bc619e3bef34f943b9e8889f6516
-      internalID: 209882543
+      spriteID: 9f378b836baeae74d8441fac7ee34f39
+      internalID: -989105237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemKey_9
+      name: UIImg32_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 24
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60b05bda4cf5b36449c1801d817a6cf7
-      internalID: 1376376454
+      spriteID: e56672a2aae60f143841a0944ab1a09d
+      internalID: 2044570213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemKey_10
+      name: UIImg32_5
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 24
-        height: 24
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e45b59d7bbe9c08469135aea88b2f6c1
-      internalID: 1064946171
+      spriteID: 73379d77187c38f42b37a7aeba0c9185
+      internalID: 31569080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItemKey_11
+      name: UIImg32_6
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 24
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9196e22d2f8c44c9636227ee0a86cc
-      internalID: 2004542715
+      spriteID: 87016cbb648f79a48b28dc995553ff37
+      internalID: -349012685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c340f9c9258029c4e8da2c460025c0fc
+      internalID: 1223261352
       vertices: []
       indices: 
       edges: []
@@ -398,18 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ItemKey_10: 1064946171
-      ItemKey_11: 2004542715
-      ItemKey_4: 807888969
-      ItemKey_5: 448583903
-      ItemKey_6: 791627837
-      ItemKey_7: -2031537944
-      ItemKey_8: 209882543
-      ItemKey_9: 1376376454
-      Package: 2047648751
-      PlayerCoin: 631015806
-      PlayerHeart: -1639810880
-      PlayerJewel: -2050634564
+      UIImg32_0: -1901893828
+      UIImg32_1: -1971834611
+      UIImg32_2: -1322342600
+      UIImg32_3: -989105237
+      UIImg32_4: 2044570213
+      UIImg32_5: 31569080
+      UIImg32_6: -349012685
+      UIImg32_7: 1223261352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
