@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
+//Lv, 하트, 보석, 골드 갯수(중요한 정보들) -> 서버에서 처리하고 저장해야함
+//클라이언트가 해야할건->서버에서 처리한 정보들을 보여주는 거 뿐?
+
 [System.Serializable]
 public class SaveData
 {

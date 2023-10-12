@@ -48,11 +48,24 @@ public class GachaManager : MonoBehaviour
     public void gacha10()
     {
         int[] gacha10Arr = new int[10];
+        int firstIdx = random.Next(100);
         string[] gacha10result = new string[10];
-        for (int i = 0; i < 10; i++)
+        if (firstIdx >= 13)
         {
-            gacha10Arr[i] = random.Next(100);
+            gacha10Arr[1] = 10;
+            for (int i = 1; i < 10; i++)
+            {
+                gacha10Arr[i] = random.Next(100);
+            }
         }
+        else
+        {
+            for (int i = 1; i < 10; i++)
+            {
+                gacha10Arr[i] = random.Next(100);
+            }
+        }
+        gacha10Arr = suffleArr(gacha10Arr);
         for (int i = 0; i < 10; i++)
         {
             gacha10result[i] = gachaList(gacha10Arr[i]);
@@ -69,6 +82,19 @@ public class GachaManager : MonoBehaviour
         }
         Debug.Log(resultTxt);
 
+    }
+
+    private T[] suffleArr<T>(T[] arr)
+    {
+
+        for (int i = 0; i < 10; i++)
+        {
+            int suffleNum = random.Next(i, 10);
+            T tempNum = arr[suffleNum];
+            arr[suffleNum] = arr[i];
+            arr[i] = tempNum;
+        }
+        return arr;
     }
 
 }
