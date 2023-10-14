@@ -7,6 +7,15 @@
     <package>com.google.firebase:firebase-auth-unity:11.5.0</package>
     <package>com.google.firebase:firebase-common:20.3.3</package>
   </packages>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  <files />
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.DefaultCompany.Unchi" />
+=======
+>>>>>>> Stashed changes
   <files>
     <file>Assets/Plugins/Android/androidx.annotation.annotation-1.5.0.jar</file>
     <file>Assets/Plugins/Android/androidx.arch.core.core-common-2.0.0.jar</file>
@@ -78,6 +87,10 @@
   <settings>
     <setting name="androidAbis" value="armeabi-v7a" />
     <setting name="bundleId" value="com.group8.triflingwitch" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> 176bd34b4aea18290b791a490242a62108e85c30
+>>>>>>> Stashed changes
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="False" />

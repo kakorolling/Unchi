@@ -1,9 +1,35 @@
+<<<<<<< Updated upstream
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 \&#xD;&#xA;http://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+<<<<<<< HEAD
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 \
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 \&#xD;&#xA;http://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> 176bd34b4aea18290b791a490242a62108e85c30
+>>>>>>> Stashed changes
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.google.firebase</groupId>
   <artifactId>firebase-app-unity</artifactId>
   <version>11.5.0</version>
+<<<<<<< Updated upstream
   <packaging>srcaar</packaging>
   <dependencies></dependencies>
 </project>
+=======
+<<<<<<< HEAD
+  <packaging>aar</packaging>
+  <dependencies>
+
+  </dependencies>
+</project>
+=======
+  <packaging>srcaar</packaging>
+  <dependencies></dependencies>
+</project>
+>>>>>>> 176bd34b4aea18290b791a490242a62108e85c30
+>>>>>>> Stashed changes
