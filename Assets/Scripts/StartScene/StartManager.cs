@@ -10,6 +10,11 @@ public class StartScene : MonoBehaviour
     public GameObject settingMenu;
     public GameObject blackpanel;
     public GameObject CloseMenuBtn;
+
+    //setting Menu
+    public GameObject LoginMenu;
+
+
     AudioSource btnSound;
 
     //5초 뒤 버튼이 나와야함
@@ -20,6 +25,7 @@ public class StartScene : MonoBehaviour
         settingMenu.SetActive(false);
         startBtn.SetActive(false);
         settingBtn.SetActive(false);
+        LoginMenu.SetActive(false);
         Invoke("ShowBtns", 1.0f);
         btnSound = GetComponent<AudioSource>();
         DontDestroyOnLoad(btnSound);
@@ -50,6 +56,14 @@ public class StartScene : MonoBehaviour
         CloseMenuBtn.SetActive(false);
     }
 
+    //세팅 메뉴
+
+    public void showLoginPage()
+    {
+        settingMenu.SetActive(false);
+        CloseMenuBtn.SetActive(false);
+        LoginMenu.SetActive(true);
+    }
     public void showCopyrightSite()
     {
         Application.OpenURL("https://kakorolling.github.io/UnchiWebsite/Copyright.html");
