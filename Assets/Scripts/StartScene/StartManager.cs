@@ -63,6 +63,7 @@ public class StartScene : MonoBehaviour
     public void GoNextScene()
     {
         btnSound.Play();
+        LoadingManager.LoadScene("RoomScene");
     }
 
 }
