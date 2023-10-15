@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 168401158}
   - component: {fileID: 168401157}
   m_Layer: 5
-  m_Name: LoginBtn
+  m_Name: LogoutBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -726,7 +726,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 168401158}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: Logout
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &168401158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,8 +844,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190158
-  m_fontColor: {r: 0.30588236, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1946,7 +1958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8962264, g: 0.04650232, b: 0.04650232, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2185,7 +2197,7 @@ GameObject:
   - component: {fileID: 474696220}
   - component: {fileID: 474696221}
   m_Layer: 5
-  m_Name: LoginMenu
+  m_Name: SignUpMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2517,7 +2529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB85C\uADF8\uC778"
+  m_text: "\uB85C\uADF8\uC544\uC6C3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 666f7dc55d747d74bbb8cda177d61652, type: 2}
   m_sharedMaterial: {fileID: -2558784391123679061, guid: 666f7dc55d747d74bbb8cda177d61652, type: 2}
@@ -3184,7 +3196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Password
+  m_text: password
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 666f7dc55d747d74bbb8cda177d61652, type: 2}
   m_sharedMaterial: {fileID: -2558784391123679061, guid: 666f7dc55d747d74bbb8cda177d61652, type: 2}
@@ -3796,7 +3808,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1170895120}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: CancelSignup
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1170895120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4056,8 +4080,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1336172635}
-        m_TargetAssemblyTypeName: StartScene, Assembly-CSharp
-        m_MethodName: GoNextScene
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: PressStartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4158,10 +4182,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startBtn: {fileID: 1290501457}
   settingBtn: {fileID: 1884931180}
-  settingMenu: {fileID: 1772616669}
-  blackpanel: {fileID: 542959642}
+  accountMenu: {fileID: 1971098247}
+  signupMenu: {fileID: 0}
   CloseMenuBtn: {fileID: 47118294}
+  blackpanel: {fileID: 542959642}
+  settingMenu: {fileID: 1772616669}
   LoginMenu: {fileID: 474696219}
+  loginEmailInput: {fileID: 292398577}
+  loginPasswordInput: {fileID: 1874311787}
+  signupEmailInput: {fileID: 1833274415}
+  signupPasswordInput: {fileID: 138465416}
 --- !u!4 &1336172636
 Transform:
   m_ObjectHideFlags: 0
@@ -4857,7 +4887,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1650934524}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: LoginAuthAccount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1650934524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6623,8 +6665,8 @@ RectTransform:
   - {fileID: 292398576}
   - {fileID: 1874311786}
   - {fileID: 1650934522}
-  - {fileID: 2087776831}
   - {fileID: 2077836067}
+  - {fileID: 2087776831}
   m_Father: {fileID: 1000428799}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6724,7 +6766,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1974929432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: CreateAccount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1974929432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6922,7 +6976,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2077836069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartScene, Assembly-CSharp
+        m_MethodName: ShowSignupPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2077836069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7044,7 +7110,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2087776833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1336172635}
+        m_TargetAssemblyTypeName: StartManager, Assembly-CSharp
+        m_MethodName: CancelLogin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2087776833
 MonoBehaviour:
   m_ObjectHideFlags: 0
