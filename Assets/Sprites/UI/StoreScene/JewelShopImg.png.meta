@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68087499dca70864da4aa8ca9da7543e
+guid: de754ac34d212e74c8821f95b4f438c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,7 +136,112 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WindowMenu_0
+      name: JewelShopImg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0835a6dc86801224a852f1ba69acf45a
+      internalID: -1694206516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JewelShopImg_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3429774080872745a09f42272544806
+      internalID: -1561725703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JewelShopImg_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7911cf543d43ff94aba5e05c7bbe5830
+      internalID: 712914445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JewelShopImg_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf1d2f3c4cdb94eb0391e6270bc88a
+      internalID: -435103024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JewelShopImg_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd9d178cb1081b4ea7bce9f737d8964
+      internalID: 501632415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JewelShopImg_5
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30314e32e4f64ee4d916728f4ec1985c
-      internalID: -981938484
+      spriteID: eb392380c29f15743b52a72713a49d61
+      internalID: -451092660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowMenu_1
+      name: JewelShopImg_6
       rect:
         serializedVersion: 2
         x: 24
@@ -171,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55154a207691b6c47bedbb3a2931b4a2
-      internalID: -1519349017
+      spriteID: 78668194f2f95c94ca081efb6fc0b0d5
+      internalID: -861017506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowMenu_2
+      name: JewelShopImg_7
       rect:
         serializedVersion: 2
         x: 48
@@ -192,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573e8d0701640264fb1276115c5300e1
-      internalID: -471650449
+      spriteID: 196b20dfcb841794489548929c71b520
+      internalID: 884843932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowMenu_3
+      name: JewelShopImg_8
       rect:
         serializedVersion: 2
         x: 72
@@ -213,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5c72690247037549a9345f965410e83
-      internalID: 1521761586
+      spriteID: 59fd9ad444a3f3e4e91819463ebcb25c
+      internalID: -1099702432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WindowMenu_4
+      name: JewelShopImg_9
       rect:
         serializedVersion: 2
         x: 96
@@ -229,13 +334,13 @@ TextureImporter:
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 4, y: 4, z: 4, w: 4}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cc8e3315b4313f4d8daee74fe741710
-      internalID: -677405149
+      spriteID: bd1af5e86026a6341869146e2b5d6609
+      internalID: 85965126
       vertices: []
       indices: 
       edges: []
@@ -251,11 +356,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WindowMenu_0: -981938484
-      WindowMenu_1: -1519349017
-      WindowMenu_2: -471650449
-      WindowMenu_3: 1521761586
-      WindowMenu_4: -677405149
+      JewelShopImg_0: -1694206516
+      JewelShopImg_1: -1561725703
+      JewelShopImg_2: 712914445
+      JewelShopImg_3: -435103024
+      JewelShopImg_4: 501632415
+      JewelShopImg_5: -451092660
+      JewelShopImg_6: -861017506
+      JewelShopImg_7: 884843932
+      JewelShopImg_8: -1099702432
+      JewelShopImg_9: 85965126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
