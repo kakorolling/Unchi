@@ -681,7 +681,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81267938}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &232475115
 GameObject:
@@ -719,8 +718,6 @@ RectTransform:
   m_AnchoredPosition: {x: -620, y: 684}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &267065218
 =======
 --- !u!1 &111730667
@@ -2062,12 +2059,17 @@ RectTransform:
   - {fileID: 81267939}
 <<<<<<< Updated upstream
   - {fileID: 267065219}
+  - {fileID: 652173594}
+  - {fileID: 1316271688}
+  - {fileID: 1636587008}
+  - {fileID: 1037033676}
+  - {fileID: 1909611319}
   m_Father: {fileID: 839481786}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 720, y: 1280}
+  m_AnchoredPosition: {x: 1922, y: 1085}
   m_SizeDelta: {x: 1440, y: 2560}
   m_Pivot: {x: 0.5, y: 0.5}
 =======
@@ -2726,7 +2728,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526396201}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &652173593
 GameObject:
@@ -2914,8 +2915,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &669066122
 =======
 --- !u!1 &560826655
@@ -4443,8 +4442,8 @@ RectTransform:
 <<<<<<< Updated upstream
   - {fileID: 1173347455}
   - {fileID: 460731308}
+  - {fileID: 1930899215}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 2
 =======
   - {fileID: 717456946}
@@ -4719,9 +4718,6 @@ RectTransform:
   m_Father: {fileID: 732377564}
   m_RootOrder: -1
 >>>>>>> Stashed changes
-=======
-  m_RootOrder: 1
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4729,7 +4725,6 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
 <<<<<<< Updated upstream
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD
 --- !u!1 &970581527
 GameObject:
   m_ObjectHideFlags: 0
@@ -6058,8 +6053,6 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 >>>>>>> Stashed changes
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &1042146977
 GameObject:
   m_ObjectHideFlags: 0
@@ -6891,7 +6884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e08b86ce2e370564885b049741d3ab28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 457861541c964bf478a6b0c5daca1c78, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6909,7 +6902,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173347454}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1316271687
 =======
@@ -7849,8 +7841,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1317353072}
 >>>>>>> Stashed changes
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &1318712501
 GameObject:
   m_ObjectHideFlags: 0
@@ -8463,9 +8453,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1436865747
 =======
@@ -9940,8 +9929,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 1750848917}
 >>>>>>> Stashed changes
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &1763553767
 GameObject:
   m_ObjectHideFlags: 0
@@ -10076,7 +10063,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763553767}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &1909611318
 =======
@@ -10483,8 +10469,6 @@ RectTransform:
   m_GameObject: {fileID: 1929662647}
   m_CullTransparentMesh: 1
 >>>>>>> Stashed changes
-=======
->>>>>>> parent of 0d83991 (캐릭터 랜덤 이동 구현)
 --- !u!1 &1990973433
 GameObject:
   m_ObjectHideFlags: 0
