@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
     //     }
     // }
 
-<<<<<<< Updated upstream
     public Vector3[] Point; // 캐릭터가 지정 범위 내 벗어나려 할 때 위치변경
 
     void Awake()
@@ -84,10 +83,6 @@ public class GameManager : MonoBehaviour
         _instance = this;
         DontDestroyOnLoad(gameObject); //씬이 전환되더라도 파괴되지 않음
     }
-=======
-    // private static GameManager _instance = null;
-    // public static GameManager instance { get => _instance; }
->>>>>>> Stashed changes
 
     // public List<string> userDataString = new List<string>();
     // public List<int> userDataInt = new List<int>();
