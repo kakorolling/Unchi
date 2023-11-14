@@ -136,15 +136,99 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemKey_4
+      name: PlayerHeart
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f348dfacde4dbb46a7f8bf9a624406f
+      internalID: -1639810880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerCoin
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eca484f6d69e943baccfa4ff04aa83
+      internalID: 631015806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerJewel
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a3c9b850f05d846b0106222c843a66
+      internalID: -2050634564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Package
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359f869b29418b42832571eb019ceb1
+      internalID: 2047648751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemKey_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +244,12 @@ TextureImporter:
       name: ItemKey_5
       rect:
         serializedVersion: 2
-        x: 120
-        y: 24
+        x: 24
+        y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +265,12 @@ TextureImporter:
       name: ItemKey_6
       rect:
         serializedVersion: 2
-        x: 144
-        y: 24
+        x: 48
+        y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +286,12 @@ TextureImporter:
       name: ItemKey_7
       rect:
         serializedVersion: 2
-        x: 168
-        y: 24
+        x: 72
+        y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +307,12 @@ TextureImporter:
       name: ItemKey_8
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,12 +328,12 @@ TextureImporter:
       name: ItemKey_9
       rect:
         serializedVersion: 2
-        x: 24
+        x: 120
         y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,12 +349,12 @@ TextureImporter:
       name: ItemKey_10
       rect:
         serializedVersion: 2
-        x: 48
+        x: 144
         y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,12 +370,12 @@ TextureImporter:
       name: ItemKey_11
       rect:
         serializedVersion: 2
-        x: 72
+        x: 168
         y: 0
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,174 +383,6 @@ TextureImporter:
       bones: []
       spriteID: 7c9196e22d2f8c44c9636227ee0a86cc
       internalID: 2004542715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df30891bea27ffe43ad7f47453c04a97
-      internalID: 1714129341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11ea7a2a4be13f544864665ed7cf1621
-      internalID: 2141541728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5112ec65126fd1d4dbadd0a40bdc7c2a
-      internalID: 1288373721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_3
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 083b826bf81bdfd4cb6eff3b098b6806
-      internalID: -1309031197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_12
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dfb06a9877a6c846883167d1a9148e3
-      internalID: 1822964975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_13
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66edccc35ace8114aa9002cf7d905a23
-      internalID: 814134509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_14
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f3bbced8d79ecd4e8b363da86a2db5a
-      internalID: 901835888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ItemKey_15
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8e5e50ae790bad48b6ce5f917523b51
-      internalID: 1805497761
       vertices: []
       indices: 
       edges: []
@@ -482,22 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ItemKey_0: 1714129341
-      ItemKey_1: 2141541728
       ItemKey_10: 1064946171
       ItemKey_11: 2004542715
-      ItemKey_12: 1822964975
-      ItemKey_13: 814134509
-      ItemKey_14: 901835888
-      ItemKey_15: 1805497761
-      ItemKey_2: 1288373721
-      ItemKey_3: -1309031197
       ItemKey_4: 807888969
       ItemKey_5: 448583903
       ItemKey_6: 791627837
       ItemKey_7: -2031537944
       ItemKey_8: 209882543
       ItemKey_9: 1376376454
+      Package: 2047648751
+      PlayerCoin: 631015806
+      PlayerHeart: -1639810880
+      PlayerJewel: -2050634564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

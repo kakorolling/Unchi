@@ -30,21 +30,22 @@ public class AuthManager
             if (auth.CurrentUser != null) Debug.Log(auth.CurrentUser.Email);
             else Debug.Log("x");
 
-            //계정 상태가 바뀔 때마다 호출
-            if (auth.CurrentUser != user) //CurrentUser =  
-            {
-                bool signed = (auth.CurrentUser != user && auth.CurrentUser != null);
-                if (!signed && user != null)
-                {
-                    Debug.Log("로그아웃");
-                }
+            //auth.SignInWithCustomTokenAsync
+            // //계정 상태가 바뀔 때마다 호출
+            // if (auth.CurrentUser != user) //CurrentUser =  
+            // {
+            //     bool signed = (auth.CurrentUser != user && auth.CurrentUser != null);
+            //     if (!signed && user != null)
+            //     {
+            //         Debug.Log("로그아웃");
+            //     }
 
-                user = auth.CurrentUser;
-                if (signed)
-                {
+            //     user = auth.CurrentUser;
+            //     if (signed)
+            //     {
 
-                }
-            }
+            //     }
+            // }
 
         };
     }
