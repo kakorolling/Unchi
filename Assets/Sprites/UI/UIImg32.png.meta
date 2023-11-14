@@ -286,8 +286,8 @@ TextureImporter:
       name: UIImg32_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -307,7 +307,7 @@ TextureImporter:
       name: UIImg32_8
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -328,7 +328,7 @@ TextureImporter:
       name: UIImg32_9
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
         width: 32
         height: 32
@@ -349,7 +349,7 @@ TextureImporter:
       name: UIImg32_10
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 0
         width: 32
         height: 32
@@ -362,6 +362,111 @@ TextureImporter:
       bones: []
       spriteID: fc59b1a52e672fc42838693c2f788ba4
       internalID: 509265105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92779099e23d2240b192c45712e8fcb
+      internalID: 795029793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac86c4d3dbaee64fa13bc182a0040f7
+      internalID: -619709900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a226c02e92d23de4f8956b238e5cfaab
+      internalID: 1518928232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e624557b5ca8f03449411f5bb2244fa8
+      internalID: -315805076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIImg32_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a19e4fd4e81ac54bad556a0f8214ecc
+      internalID: -1047592723
       vertices: []
       indices: 
       edges: []
@@ -380,6 +485,11 @@ TextureImporter:
       UIImg32_0: -1901893828
       UIImg32_1: -1971834611
       UIImg32_10: 509265105
+      UIImg32_11: 795029793
+      UIImg32_12: -619709900
+      UIImg32_13: 1518928232
+      UIImg32_14: -315805076
+      UIImg32_15: -1047592723
       UIImg32_2: -1322342600
       UIImg32_3: -989105237
       UIImg32_4: 2044570213

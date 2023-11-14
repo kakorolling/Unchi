@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class StartManager : MonoBehaviour
 {
+    //싱글톤
     private static StartManager _instance;
     public static StartManager instance
     {
@@ -29,17 +30,17 @@ public class StartManager : MonoBehaviour
     public GameObject CloseMenuBtn;
     public GameObject blackpanel;
     public GameObject settingMenu;
-    public GameObject LoginMenu;
 
     //사운드
     AudioSource btnSound;
-
 
     //이메일, 비밀번호
     public TMP_InputField loginEmailInput;
     public TMP_InputField loginPasswordInput;
     public TMP_InputField signupEmailInput;
     public TMP_InputField signupPasswordInput;
+
+
 
     void Start()
     {
@@ -48,7 +49,7 @@ public class StartManager : MonoBehaviour
         settingMenu.SetActive(false);
         startBtn.SetActive(false);
         settingBtn.SetActive(false);
-        LoginMenu.SetActive(false);
+        signupMenu.SetActive(false);
         accountMenu.SetActive(false);
         Invoke("ShowBtns", 1.0f);     //5초 뒤 버튼이 나와야함
         btnSound = GetComponent<AudioSource>();
@@ -60,51 +61,6 @@ public class StartManager : MonoBehaviour
     {
         startBtn.SetActive(true);
         settingBtn.SetActive(true);
-    }
-
-    //처음 로그인 창
-    public void ShowLoginPage()
-    {
-        accountMenu.SetActive(true);
-        blackpanel.SetActive(true);
-        startBtn.SetActive(false);
-        settingBtn.SetActive(false);
-    }
-
-    public void CancelLogin()
-    {
-        accountMenu.SetActive(false);
-        blackpanel.SetActive(false);
-        startBtn.SetActive(true);
-        settingBtn.SetActive(true);
-    }
-
-    public void LoginAuthAccount()
-    {
-        Debug.Log(loginEmailInput.text);
-        Debug.Log(loginPasswordInput.text);
-        AuthManager.instance.Login(loginEmailInput.text, loginPasswordInput.text);
-    }
-
-    //회원가입 창
-    public void ShowSignupPage()
-    {
-        accountMenu.SetActive(false);
-        LoginMenu.SetActive(true);
-    }
-
-    public void CancelSignup()
-    {
-        LoginMenu.SetActive(false);
-        blackpanel.SetActive(false);
-        startBtn.SetActive(true);
-        settingBtn.SetActive(true);
-    }
-
-    public void CreateAccount()
-    {
-
-        AuthManager.instance.CreateAccount(signupEmailInput.text, signupPasswordInput.text);
     }
 
     //세팅 메뉴 보이면
@@ -137,9 +93,70 @@ public class StartManager : MonoBehaviour
         Application.OpenURL("https://kakorolling.github.io/UnchiWebsite/FAQ.html");
     }
 
+
+    //처음 로그인 창
+    public void ShowLoginPage()
+    {
+        accountMenu.SetActive(true);
+        blackpanel.SetActive(true);
+        startBtn.SetActive(false);
+        settingBtn.SetActive(false);
+    }
+
+    public void CancelLogin()
+    {
+        accountMenu.SetActive(false);
+        blackpanel.SetActive(false);
+        startBtn.SetActive(true);
+        settingBtn.SetActive(true);
+    }
+
+    public void LoginAuthAccount()
+    {
+        string email = loginEmailInput.text;
+        string password = loginPasswordInput.text;
+        AuthManager.instance.Login(email, password);
+        accountMenu.SetActive(false);
+        blackpanel.SetActive(false);
+        startBtn.SetActive(true);
+        settingBtn.SetActive(true);
+    }
+
+    //회원가입 창
+    public void ShowSignupPage()
+    {
+        accountMenu.SetActive(false);
+        signupMenu.SetActive(true);
+    }
+
+    public void CancelSignup()
+    {
+        signupMenu.SetActive(false);
+        blackpanel.SetActive(false);
+        startBtn.SetActive(true);
+        settingBtn.SetActive(true);
+    }
+
+    public void CreateAccount()
+    {
+        string email = signupEmailInput.text;
+        string password = signupPasswordInput.text;
+        AuthManager.instance.CreateAccount(email, password);
+
+        signupMenu.SetActive(false);
+        blackpanel.SetActive(false);
+        startBtn.SetActive(true);
+        settingBtn.SetActive(true);
+    }
+
+
     public void Logout()
     {
         AuthManager.instance.LogOut();
+        settingMenu.SetActive(false);
+        blackpanel.SetActive(false);
+        startBtn.SetActive(true);
+        settingBtn.SetActive(true);
     }
 
     //게임 시작버튼
@@ -156,5 +173,7 @@ public class StartManager : MonoBehaviour
             LoadingManager.LoadScene("RoomScene");
         }
     }
+
+
 
 }
