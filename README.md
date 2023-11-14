@@ -25,4 +25,7 @@
 ![1699936853588](https://github.com/kakorolling/Unchi/assets/112995645/6156d7cc-6a74-4dfc-98b0-c84da2d39da4)
 
 
-##### 
+##### 룸 꾸미기
+
+![1699937872415](https://github.com/kakorolling/Unchi/assets/112995645/456e4859-a785-41a9-8d11-961045b9b7ae)
+
